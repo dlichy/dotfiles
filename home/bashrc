@@ -195,3 +195,4 @@ eval "$(register-python-argcomplete kwcoco)"
 DID_MY_BASHRC_INIT="TRUE"
 
 export PYTHONBREAKPOINT=ipdb.set_trace
+alias mount_videonas='sudo mount -t cifs -o username=daniel.lichy,domain=KHQ //videonas/fouo ~/Desktop/videonas/' 
